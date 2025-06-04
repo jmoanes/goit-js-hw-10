@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
