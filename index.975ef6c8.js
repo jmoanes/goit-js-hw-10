@@ -563,7 +563,6 @@ var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
 (0, _axiosDefault.default).defaults.headers.common["x-api-key"] = "live_ThzvRwFKiamGBY85K7V5771o2ouBwhduhGHkqWXSmzPuhwgeLmHTmz7QqWopxKQj";
 (0, _axiosDefault.default).defaults.baseURL = "https://api.thecatapi.com/v1";
-(0, _axiosDefault.default).defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 function fetchBreeds() {
     return (0, _axiosDefault.default).get("/breeds").then((response)=>response.data).catch((error)=>{
         throw error;
